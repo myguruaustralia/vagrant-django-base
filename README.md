@@ -1,7 +1,7 @@
 vagrant-django-base
 ===================
 
-A Vagrant box based on Ubuntu trusty32, configured for Django development
+A Vagrant box based on Ubuntu trusty64, configured for Django development
 according to Torchbox's adopted practices. Things preinstalled beyond the base
 trusty32 box include:
 
