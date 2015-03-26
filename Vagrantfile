@@ -3,12 +3,11 @@
 
 Vagrant.configure(2) do |config|
 	# Every Vagrant virtual environment requires a box to build off of.
-	config.vm.box = "ubuntu/trusty32"
+	config.vm.box = "ubuntu/trusty64"
 	
 	# The url from where the 'config.vm.box' box will be fetched if it
 	# doesn't already exist on the user's system.
-	config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-i386-vagrant-disk1.box"
-	
+	config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"	
 	# Boot with a GUI so you can see the screen. (Default is headless)
 	# config.vm.boot_mode = :gui
 	
